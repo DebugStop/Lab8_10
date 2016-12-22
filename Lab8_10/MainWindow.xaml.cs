@@ -29,7 +29,7 @@ namespace Lab8_10
 
                             private void button_Click(object sender, RoutedEventArgs e)
          {
-            string pattern = @"^[0-9]{11}$";
+            string pattern = @"^([a-z0-9_\.-]+)@([a-z0-9_\.-]+)\.(ru)$";
 
             string text = textBox.Text;
 
