@@ -1,0 +1,19 @@
+﻿<Window x:Class="Lab8_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab8_10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="231.69" Width="414.085">
+    <Grid>
+
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="13,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <Label x:Name="label" Content="Валидация данных" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="123"/>
+
+        <Button x:Name="button" Content="Проверить" HorizontalAlignment="Left" Margin="166,70,0,0" VerticalAlignment="Top" Width="126" RenderTransformOrigin="0.107,-0.5" Click="button_Click"/>
+
+
+    </Grid>
+</Window>
