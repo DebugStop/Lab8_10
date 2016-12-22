@@ -7,11 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="231.69" Width="414.085">
     <Grid>
-
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="37" Margin="104,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
-
-        <Button x:Name="button" Content="Проверить" HorizontalAlignment="Left" Margin="134,80,0,0" VerticalAlignment="Top" Width="140" RenderTransformOrigin="0.107,-0.5" Click="button_Click" Height="36"/>
-
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="87,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <Button x:Name="button" Content="Проверить" HorizontalAlignment="Left" Margin="268,70,0,0" VerticalAlignment="Top" Width="126" RenderTransformOrigin="0.107,-0.5" Click="button_Click" Height="76"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="87,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="87,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <Label x:Name="label1" Content="Город" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Width="104" Height="24"/>
+        <Label x:Name="label2" Content="Улица" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" Width="104"/>
+        <Label x:Name="label3" Content="Дом" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
