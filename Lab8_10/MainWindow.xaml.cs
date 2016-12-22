@@ -29,11 +29,11 @@ namespace Lab8_10
 
                             private void button_Click(object sender, RoutedEventArgs e)
          {
-            string pattern = @"^[0-9]{6}$";
+            string pattern = @"^([a-z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z\.]{2,6})$";
             string text = textBox.Text;
- 
-             if (Regex.IsMatch(text, pattern))
-             {
+
+            if (Regex.IsMatch(text, pattern))
+            {
                  MessageBox.Show("ДА");
              }
              else

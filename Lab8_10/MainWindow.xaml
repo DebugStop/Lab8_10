@@ -7,11 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="231.69" Width="414.085">
     <Grid>
-
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="37" Margin="104,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
-
-        <Button x:Name="button" Content="Проверить" HorizontalAlignment="Left" Margin="134,80,0,0" VerticalAlignment="Top" Width="140" RenderTransformOrigin="0.107,-0.5" Click="button_Click" Height="36"/>
-
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="13,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+        <Label x:Name="label" Content="Валидация данных" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="button" Content="Проверить" HorizontalAlignment="Left" Margin="237,70,0,0" VerticalAlignment="Top" Width="126" RenderTransformOrigin="0.107,-0.5" Click="button_Click"/>
 
     </Grid>
 </Window>
