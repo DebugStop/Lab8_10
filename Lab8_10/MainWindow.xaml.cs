@@ -29,7 +29,7 @@ namespace Lab8_10
 
                             private void button_Click(object sender, RoutedEventArgs e)
          {
-           string pattern = @"^0|(-?[1-9]\d*)$";
+            string pattern = @"^\d(\+|-)\d\*i$";
             string text = textBox.Text;
  
              if (Regex.IsMatch(text, pattern))
