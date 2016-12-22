@@ -29,8 +29,8 @@ namespace Lab8_10
 
                             private void button_Click(object sender, RoutedEventArgs e)
          {
-             string pattern = @"^[1-9][0-9]*$";
-             string text = textBox.Text;
+            string pattern = @"^0|(-?[1-9]\d*)$";
+            string text = textBox.Text;
  
              if (Regex.IsMatch(text, pattern))
              {
