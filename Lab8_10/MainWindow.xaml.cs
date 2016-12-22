@@ -29,13 +29,10 @@ namespace Lab8_10
 
                             private void button_Click(object sender, RoutedEventArgs e)
          {
-            string pattern_city_street = @"^[A-Z][a-z]*$";
-            string pattern_house = @"^\d*$";
-            string text_c = textBox.Text;
-            string text_s = textBox1.Text;
-            string text_h = textBox2.Text;
+            string pattern = @"^<html>(\s*\w*\s*)*</html>$";
+            string text = textBox.Text;
 
-            if ((Regex.IsMatch(text_c, pattern_city_street) == true) && (Regex.IsMatch(text_s, pattern_city_street)) && (Regex.IsMatch(text_h, pattern_house)))
+            if (Regex.IsMatch(text, pattern))
             {
                  MessageBox.Show("ДА");
              }
